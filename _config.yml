@@ -1,65 +1,52 @@
-url: https://presente.github.io/mvp/
-baseurl: https://presente.github.io/mvp/
+url: https://presente.github.io/mvp
+baseurl: https://presente.github.io/mvp
 
 # Site settings
 title: Million Voters Project
 email: info@millionvotersproject.org
 description: "The goal of the Million Voter Project is to achieve a strategic change in the California Electorate to more closely reflect the diversity of its population."
 
-# Team names, titles and social links
-people:
-- name: Presente
+# Partners names, titles and social links
+partner:
+- name: California Calls
   pic: 1
-  position: Lead Designer
+  url: http://cacalls.org
   social:
     - title: twitter
-      url: #
+      url: https://twitter.com/CAcalls
     - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+      url: https://www.facebook.com/CaliforniaCalls
 
-- name: California
+- name: Presente.org
   pic: 2
-  position: Lead Marketer
+  url: http://presente.org
   social:
     - title: twitter
-      url: #
+      url: https://twitter.com/presenteorg
     - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+      url: https://www.facebook.com/Presente.org/
 
-- name: Diana Petersen
+- name: Mobilize the Immigrant Vote
   pic: 3
-  position: Lead Developer
+  url: http://www.mivcalifornia.org/
   social:
     - title: twitter
-      url: #
+      url: https://twitter.com/mivcalifornia
     - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+      url: https://www.facebook.com/mivcalifornia
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
+    url: https://twitter.com/millionvp
   - title: facebook
-    url:
-
-  # - title: stack-overflow
-  #   url: http://stackoverflow.com/questions/tagged/jekyll
-  # - title: bitbucket
-  #   url: http://bitbucket.org/jekyll
-  # - title: github
-  #   url: http://github.com/jekyll
+    url: https://www.facebook.com/millionvotersproject
 
 # Postal address (add as many lines as necessary)
-address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+# address:
+#   - line: 3481 Melrose Place
+#   - line: Beverly Hills, CA 90210
 
 # Build settings
-markdown: kramdown
-permalink: pretty
+# markdown: kramdown
+# permalink: pretty
