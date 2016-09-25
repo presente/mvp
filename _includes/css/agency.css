@@ -771,6 +771,7 @@ ul.social-buttons li a:active {
     outline: 0;
 }
 
+/* Portfolio modal */
 .portfolio-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
@@ -841,6 +842,7 @@ ul.social-buttons li a:active {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+/* end of portfolio-modal*/
 
 ::-moz-selection {
     text-shadow: none;

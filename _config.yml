@@ -11,29 +11,29 @@ partner:
 - name: California Calls
   pic: 1
   url: http://cacalls.org
-  social:
-    - title: twitter
-      url: https://twitter.com/CAcalls
-    - title: facebook
-      url: https://www.facebook.com/CaliforniaCalls
+  # social:
+  #   - title: twitter
+  #     url: https://twitter.com/CAcalls
+  #   - title: facebook
+  #     url: https://www.facebook.com/CaliforniaCalls
 
 - name: Presente.org
   pic: 2
   url: http://presente.org
-  social:
-    - title: twitter
-      url: https://twitter.com/presenteorg
-    - title: facebook
-      url: https://www.facebook.com/Presente.org/
+  # social:
+  #   - title: twitter
+  #     url: https://twitter.com/presenteorg
+  #   - title: facebook
+  #     url: https://www.facebook.com/Presente.org/
 
 - name: Mobilize the Immigrant Vote
   pic: 3
   url: http://www.mivcalifornia.org/
-  social:
-    - title: twitter
-      url: https://twitter.com/mivcalifornia
-    - title: facebook
-      url: https://www.facebook.com/mivcalifornia
+  # social:
+  #   - title: twitter
+  #     url: https://twitter.com/mivcalifornia
+  #   - title: facebook
+  #     url: https://www.facebook.com/mivcalifornia
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
