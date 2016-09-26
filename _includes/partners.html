@@ -4,13 +4,15 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Partners</h2>
+                    <h3 class="section-heading"></h3>
                 </div>
             </div>
             <div class="row">
                 {% for member in site.partner %}
-                <div class="col-sm-4">
+                <div class="col-sm-3">
                     <div class="team-member">
-                        <a href="{{ member.url }}" target="_blank"><img src="img/partners/{{ member.pic }}.jpg" class="img-responsive img-circle" alt=""></a>
+                        <a href="#{{ member.url }}" data-toggle="modal"
+                        data-target="#{{ member.url }}"><img src="img/partners/{{ member.pic }}.jpg" class="img-responsive img-square" alt=""></a>
                         <!-- <h4>{{ member.name }}</h4> -->
                         <p class="text-muted">{{ member.position }}</p>
                         <ul class="list-inline social-buttons">
@@ -27,6 +29,24 @@
                 </div>
                 {% endfor %}
             </div>
-
+            <!-- Partner Modal -->
+            <div class="row">
+                {% for member in site.partner %}
+                <div class="modal fade" id="{{ member.url }}" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">{{ member.name }}</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>{{ member.text}}</p>
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
         </div>
     </section>

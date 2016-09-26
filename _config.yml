@@ -8,32 +8,40 @@ description: "The goal of the Million Voter Project is to achieve a strategic ch
 
 # Partners names, titles and social links
 partner:
-- name: California Calls
+- name: Alliance of Californians for Community Empowerment (ACCE)
   pic: 1
-  url: http://cacalls.org
-  # social:
-  #   - title: twitter
-  #     url: https://twitter.com/CAcalls
-  #   - title: facebook
-  #     url: https://www.facebook.com/CaliforniaCalls
+  url: "ACCEModal"
+  text: "Alliance of Californians for Community Empowerment (ACCE) is a grassroots, member-led, statewide community organization working with more than 10,000 members across California. ACCE is dedicated to raising the voices of everyday Californians, neighborhood by neighborhood, to fight for the policies and programs we need to improve our communities and create a brighter future. ACCE takes a serious commitment to ground-up organizing to build a strong people’s movement that can create transformative community change. Local neighborhood chapters and issue committees, led by ACCE Action member leaders, meet regularly to strategize and plan campaigns. Central to this work is the belief that there’s power in numbers and in collective action – ACCE Action members and allies frequently “take to the streets” with rallies, town halls, and other actions to make our voices heard."
 
-- name: Presente.org
+- name: Asian Pacific Environmental Network (APEN)
   pic: 2
-  url: http://presente.org
-  # social:
-  #   - title: twitter
-  #     url: https://twitter.com/presenteorg
-  #   - title: facebook
-  #     url: https://www.facebook.com/Presente.org/
+  url: "APENModal"
+  text: "Asian Pacific Environmental Network (APEN) brings together a collective voice to develop an alternative agenda for environmental, social and economic justice. Through building an organized movement, APEN strives to bring fundamental changes to economic and social institutions that will prioritize public good over profits and promote the right of every person to a decent, safe, affordable quality of life, and the right to participate in decisions affecting our lives. APEN holds this vision of environmental justice for all people and focuses particularly in Asian and Pacific Islander communities."
+
+- name: California Calls
+  pic: 3
+  url: "CAcallsModal"
+  text: "California Calls is a growing alliance of 31 grassroots, community-based organizations spanning urban, rural and suburban counties across the state. California Calls engages, educates, and motivates new and infrequent voters among young people, from communities of color, and from poor and working class neighborhoods to make California’s electorate reflect our state’s diverse population. Through a bottom-up approach, California Calls organizes voters most impacted by budget cuts and deteriorating public services in support of systemic, progressive solutions to our state’s fiscal crisis. Working together, and including those who are often left out of policy decisions, California Calls reclaims the California Dream of equality, opportunity and prosperity for all Californians."
+
+- name: Coalition for Humane Immigrant Rights of Los Angeles (CHIRLA)
+  pic: 4
+  url: "CHIRLAModal"
+  text: "Coalition for Humane Immigrant Rights of Los Angeles (CHIRLA) is a California leader with national impact made of diverse immigrant families and individuals who act as agents of social change to achieve a world with freedom of mobility, full human rights, and true participatory democracy. CHIRLA’s mission is to achieve a just society fully inclusive of immigrants. CHIRLA organizes and serves individuals, institutions and coalitions to build power, transform public opinion, and change policies to achieve full human, civil and labor rights. Guided by the power, love, and vision of our community, CHIRLA embraces and drives progressive social change. CHIRLA was formed in response to the Immigration Reform and Control Act (IRCA) of 1986 that made hiring undocumented workers illegal, creating a situation ripe for worker exploitation and abuse which has only increased since that time."
 
 - name: Mobilize the Immigrant Vote
-  pic: 3
-  url: http://www.mivcalifornia.org/
-  # social:
-  #   - title: twitter
-  #     url: https://twitter.com/mivcalifornia
-  #   - title: facebook
-  #     url: https://www.facebook.com/mivcalifornia
+  pic: 5
+  url: "MIVModal"
+  text: "Mobilize the Immigrant Vote (MIV) amplifies the voices of low-income immigrant and refugee New Americans of color by building our voting power to improve living conditions and achieve systems change across California. MIV envisions a just, democratic California, country, and world in which all people, regardless of migration status, are full and equal citizens. MIV was the first ever statewide, multi-ethnic coalition of community-based immigrant organizations working to increase community participation in elections and advance broader community and systems change. Today, MIV continues to build the power of voters in immigrant and refugee New American communities to raise our voices in support of the right to quality education, good jobs and a living wage, health care and public benefits, affordable housing, healthy environments, and dignity for all people."
+
+- name: PICO California
+  pic: 6
+  url: "PICOModal"
+  text: "PICO California is the state’s largest faith-based community organizing network. Established in 1994, PICO California brings together clergy and community leaders from throughout California to affect meaningful budget and policy change at the state level. Over the past 20 years, PICO California’s organizing and policy advocacy has resulted in increased investments in education and healthcare, and in programs and services that are critical to decrease mass incarceration and gun violence, create opportunities for formerly incarcerated individuals, and positively impact the lives of low-income and working families.  PICO California represents 480 congregations and 450,0000 families of diverse economic, racial, ethnic, and religious backgrounds committed to advancing racial and economic justice in California."
+
+- name: Presente.org
+  pic: 7
+  url: "PresenteModal"
+  text: "Presente advances Latinx power and creates winning campaigns that amplify Latinx voices; expands the political imagination and traditional boundaries; and fosters inspiration for freedom, equity, and justice. Presente is the largest national Latinx online organization advancing social justice with technology, media, and culture. Lasting change only comes when ordinary people stand up and speak out. Presente.org seeks to be a platform for the Latinx community, and those who stand with us, to amplify our voices and fight for our collective welfare and dignity. Presente brings together Latinxs of all nationalities, generations, and regions, with allies from other communities. Comprised of residents, recent immigrants, and U.S. citizens, common goals include building our communities, providing for our families, and enriching the country where we live—all without being denied the basic human rights afforded to others."
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
