@@ -1,4 +1,5 @@
-url: http://millionvotersproject.org
+# url: http://millionvotersproject.org
+url: https://presente.github.io/mvp
 # baseurl:
 baseurl: https://presente.github.io/mvp
 
@@ -50,12 +51,3 @@ social:
     url: https://twitter.com/millionvp
   - title: facebook
     url: https://www.facebook.com/millionvotersproject
-
-# Postal address (add as many lines as necessary)
-# address:
-#   - line: 3481 Melrose Place
-#   - line: Beverly Hills, CA 90210
-
-# Build settings
-# markdown: kramdown
-# permalink: pretty
