@@ -181,6 +181,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default {
     border-color: transparent;
     background-color: #222;
+    /*background-color: #ffffff;*/
 }
 
 .navbar-default .navbar-brand {
@@ -275,7 +276,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    /*background-image: url('https://presente.github.io/mvp/img/header-bg.jpg');*/
+    /*background-image: url('/img/header-bg.jpg');*/
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -664,7 +665,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('https://presente.github.io/mvp/img/pledgebg.png');
+    background-image: url('/img/pledgebg.png');
     background-position: center;
     background-repeat: no-repeat;
 }
