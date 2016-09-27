@@ -79,8 +79,8 @@
 
     <!-- Header -->
     <header>
-        <div class="row">
-            <img src="/mvpcommunity.jpg"/>
+        <div class="row" style="background-color:#000;">
+            <img src="/mvpcommunity.jpg" width="100%"/>
         </div>
         <!-- <div class="video-container">
             <iframe width="560" heigh="315" src="https://www.youtube.com/embed/5MTt3xOYI9M?rel=0&amp;controls=0&amp;showinfo=0&loop=1&autoplay=0" frameborder="0" allowfullscreen></iframe>
@@ -163,7 +163,7 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <!-- <label for="id_zip">ZIP Code</label> -->
-                                    <input type="text" name="zip" id="zip" class="form-control" placeholder="Your Zip Code *" required data-validation-required-message="Please enter your Zip Code." />
+                                    <input type="text" pattern="[0-9]{5}" name="zip" id="zip" class="form-control" placeholder="Your Zip Code *" required data-validation-required-message="Please enter your Zip Code." />
                                 </div>
                             </div>
                             <div class="col-md-6 text-center">
