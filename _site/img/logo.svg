@@ -165,7 +165,7 @@
 			<text transform="matrix(1 0 0 1 98.0894 80.7065)" fill="#282780" font-family="'AbadiMT-CondensedExtraBold'" font-size="63.6646">P</text>
 		
 			<text transform="matrix(1 0 0 1 5.6484 80.6431)" fill="#282780" font-family="'AbadiMT-CondensedExtraBold'" font-size="63.6646">M</text>
-		<rect x="53.709" y="47.121" fill="none" stroke="#231F20" stroke-miterlimit="10" width="37.449" height="32.088"/>
+		<rect x="53.709" y="47.121" fill="none" stroke="#E2E2E2" stroke-miterlimit="10" width="37.449" height="32.088"/>
 		<polygon fill="#EF4E30" points="53.709,43.23 66.442,43.23 71.217,55.61 91.377,10.691 105.879,4.148 71.57,81.872 		"/>
 	</g>
 </g>
