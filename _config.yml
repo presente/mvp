@@ -6,6 +6,7 @@ baseurl: https://presente.github.io/mvp
 title: Million Voters Project
 email: info@millionvotersproject.org
 description: "The Million Voters Project (MVP) is an innovative partnership among California's most prominent community-based organizations. #OneMillionStrong"
+image: mvpcommunity.jpg
 
 # Partners names, titles and social links
 partner:
