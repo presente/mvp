@@ -13,7 +13,7 @@
                     <div class="team-member">
                         <a href="#{{ member.url }}" data-toggle="modal"
                         data-target="#{{ member.url }}"><img src="img/partners/{{ member.pic }}.jpg" class="img-responsive img-square" alt=""></a>
-                        <!-- <h4>{{ member.name }}</h4> -->
+                        <!-- <h4><a href="{{ member.link }}" target="_blank">{{ member.name }}</a></h4> -->
                         <p class="text-muted">{{ member.position }}</p>
                         <ul class="list-inline social-buttons">
                             {% for network in member.social %}
@@ -41,6 +41,7 @@
                             </div>
                             <div class="modal-body">
                                 <p>{{ member.text}}</p>
+                                <p><a href="{{ member.website }}" target="_blank">Visit Website</a></p>
                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                             </div>
                         </div>
