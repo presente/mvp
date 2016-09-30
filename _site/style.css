@@ -179,13 +179,13 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default {
-    border-color: transparent;
-    background-color: #222;
-    /*background-color: #ffffff;*/
+    /*border-color: transparent;*/
+    background-color: white;
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    /*font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;*/
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,cursive;
     color: #ef4f3a;
     margin-bottom:15px;
 }
@@ -204,6 +204,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-toggle {
     border-color: #ef4f3a;
     background-color: #ef4f3a;
+
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -220,7 +221,8 @@ fieldset[disabled] .btn-xl.active {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    /*color: #fff;*/
+    color: #2e378f;
 }
 
 .navbar-default .nav li a:hover,
@@ -264,12 +266,26 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        /*background-color: #222;*/
+        background-color: #ffffff;
+        -webkit-box-shadow: 0 5px 3px -6px #1a1a1a;
+        -moz-box-shadow: 0 5px 3px -6px #1a1a1a;
+        box-shadow: 0 5px 3px -6px #1a1a1a;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+
+}
+
+.logobrand{
+    float: left;
+    height: 90px;
+}
+
+.logobrand img{
+    width: 220px;
 }
 
 header {
