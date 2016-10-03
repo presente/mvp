@@ -127,7 +127,7 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-xl {
-    padding: 20px 40px;
+    padding: 10px 20px;
     border-color: #ef4f3a;
     border-radius: 3px;
     text-transform: uppercase;
@@ -179,7 +179,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default {
-    /*border-color: transparent;*/
+    border-color: transparent;
     background-color: white;
 }
 
@@ -199,6 +199,10 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-collapse {
     border-color: rgba(255,255,255,.02);
+}
+
+.logobrand img{
+    height: 60px;
 }
 
 .navbar-default .navbar-toggle {
@@ -221,7 +225,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    /*color: #fff;*/
+    color: #fff;
     color: #2e378f;
 }
 
@@ -243,9 +247,20 @@ fieldset[disabled] .btn-xl.active {
     background-color: #2e378f;
 }
 
+/* Shrink navigation components when navigation collapses*/
+.navbar-default.navbar-shrink .logobrand img{
+    height: 50px;
+}
+
+.navbar-default.navbar-shrink .nav li a {
+    font-size: .8em;
+    /*color: #2e378f;*/
+}
+
 @media(min-width:768px) {
     .navbar-default {
-        padding: 25px 0;
+        /*padding: 25px 0;*/
+        padding: 20px 0;
         border: 0;
         background-color: transparent;
         -webkit-transition: padding .3s;
@@ -253,12 +268,12 @@ fieldset[disabled] .btn-xl.active {
         transition: padding .3s;
     }
 
-    .navbar-default .navbar-brand {
+    /*.navbar-default .navbar-brand {
         font-size: 2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
-    }
+    }*/
 
     .navbar-default .navbar-nav>.active>a {
         border-radius: 3px;
@@ -266,33 +281,18 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        /*background-color: #222;*/
         background-color: #ffffff;
         -webkit-box-shadow: 0 5px 3px -6px #1a1a1a;
         -moz-box-shadow: 0 5px 3px -6px #1a1a1a;
         box-shadow: 0 5px 3px -6px #1a1a1a;
     }
-
-    .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
-    }
-
-}
-
-.logobrand{
-    float: left;
-    height: 90px;
-}
-
-.logobrand img{
-    width: 220px;
 }
 
 header {
     text-align: center;
-    color: #fff;
+    color: #000;
     background-attachment: scroll;
-    /*background-image: url('/img/header-bg.jpg');*/
+    background-image: url('mvpcommunity.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -302,7 +302,7 @@ header {
 }
 
 header .intro-text {
-    padding-top: 100px;
+    padding-top: 440px;
     padding-bottom: 50px;
 }
 
@@ -681,7 +681,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('/img/pledgebg.png');
+    background-image: url('https://presente.github.io/mvp/img/pledgebg.png');
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -906,6 +906,91 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+/* Pledge CSS */
+section#pledge {
+    /*background-color: #222;*/
+    padding-top: 200px;
+    background-color: transparent;
+    /*background-image: url('https://presente.github.io/mvp/img/pledgebg.png');*/
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section#pledge .section-heading {
+    color: #fff;
+}
+
+section#pledge .form-group {
+    margin-bottom: 25px;
+}
+
+section#pledge .form-group input,
+section#pledge .form-group textarea {
+    padding: 20px;
+    font-size: 20px;
+}
+
+section#pledge .form-group input.form-control {
+    height: auto;
+}
+
+section#pledge .form-group textarea.form-control {
+    height: 236px;
+}
+
+section#pledge .form-control:focus {
+    border-color: #ef4f3a;
+    box-shadow: none;
+}
+
+section#pledge::-webkit-input-placeholder {
+    text-transform: uppercase;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#pledge:-moz-placeholder {
+    text-transform: uppercase;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#pledge::-moz-placeholder {
+    text-transform: uppercase;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#pledge:-ms-input-placeholder {
+    text-transform: uppercase;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#pledge .text-danger {
+    color: #e74c3c;
+}
+
+@media(max-width:765px) {
+    section#pledge {
+        padding-top: 100px;
+        background-color: transparent;
+        /*background-image: url('https://presente.github.io/mvp/img/pledgebg.png');*/
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+/* Social share button on navigation */
+.social-share{
+    /*left: 20px;*/
+
 }
 
 

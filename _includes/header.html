@@ -11,25 +11,13 @@
                 </button>
                 <div class="logobrand">
                         <a class="page-scroll" href="#page-top"><img src="img/logo.png"/></a>
-                        <!-- <a class="navbar-brand page-scroll" href="#page-top"><img src="img/logo.png"/></a> -->
                 </div>
-
             </div>
-
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <div class="row text-center" style="padding:1px;">
-                        <p>
-                            <a href="http://shpg.org/166/175616/facebook" target="_blank"><i class="fa fa-facebook"></i> Share</a> |
-                            <a href="http://shpg.org/166/175617/twitter" target="_blank"><i class="fa fa-twitter"></i> Tweet</a>
-                        </p>
-                    </div>
                     <li class="hidden">
                         <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Join MVP</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#about">About</a>
@@ -40,6 +28,9 @@
                     <!-- <li>
                         <a href="#" target="_blank">Donate</a>
                     </li> -->
+
+                    <li><a href="http://shpg.org/166/175616/facebook" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                    <li><a href="http://shpg.org/166/175617/twitter" target="_blank"><i class="fa fa-twitter-square"></i></a>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -49,9 +40,9 @@
 
     <!-- Header -->
     <header>
-        <div class="row" style="background-color:#000;">
-            <img src="{{ site.image }}" width="100%"/>
-        </div>
+        <div class="row">
+            {% include pledge.html %}
+        </div> <!-- end of row -->
         <!-- <div class="video-container">
             <iframe width="560" heigh="315" src="https://www.youtube.com/embed/5MTt3xOYI9M?rel=0&amp;controls=0&amp;showinfo=0&loop=1&autoplay=0" frameborder="0" allowfullscreen></iframe>
             <div class="intro-text">
