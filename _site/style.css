@@ -681,7 +681,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('https://presente.github.io/mvp/img/pledgebg.png');
+    background-image: url('/img/pledgebg.png');
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -913,7 +913,7 @@ section#pledge {
     /*background-color: #222;*/
     padding-top: 200px;
     background-color: transparent;
-    /*background-image: url('https://presente.github.io/mvp/img/pledgebg.png');*/
+    /*background-image: url('/img/pledgebg.png');*/
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -981,16 +981,16 @@ section#pledge .text-danger {
     section#pledge {
         padding-top: 100px;
         background-color: transparent;
-        /*background-image: url('https://presente.github.io/mvp/img/pledgebg.png');*/
+        /*background-image: url('/img/pledgebg.png');*/
         background-position: center;
         background-repeat: no-repeat;
     }
 }
 
-/* Social share button on navigation */
-.social-share{
-    /*left: 20px;*/
-
-}
+/* Mobile alert disclosure */
+.mobilepriv p{
+    padding: 10px 20px;
+    font-size: 10px;
+    color: #eee;}
 
 

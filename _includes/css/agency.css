@@ -979,8 +979,8 @@ section#pledge .text-danger {
     }
 }
 
-/* Social share button on navigation */
-.social-share{
-    /*left: 20px;*/
-
-}
+/* Mobile alert disclosure */
+.mobilepriv p{
+    padding: 10px 20px;
+    font-size: 10px;
+    color: #eee;}
