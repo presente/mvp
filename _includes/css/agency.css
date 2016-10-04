@@ -911,7 +911,7 @@ section#pledge {
 }
 
 section#pledge .section-heading {
-    color: #fff;
+    color: #{{ site.data.template.color.secondary-light }};
 }
 
 section#pledge .form-group {
@@ -979,8 +979,28 @@ section#pledge .text-danger {
     }
 }
 
+/* Press CSS */
+section#press {
+    background-image: url('{{ site.baseurl }}/img/pledgebg.png');
+}
+
+@media(max-width:765px) {
+    section#press {
+        background-image: url('{{ site.baseurl }}/img/pledgebg.png');
+    }
+}
+section#press .section-heading{
+    /*color: #fff;*/
+    color: #{{ site.data.template.color.secondary-light }};
+}
+
+section#press small{
+    color: #dedede;
+}
+/* End of Press CSS */
+
 /* Mobile alert disclosure */
 .mobilepriv p{
-    padding: 10px 20px;
+    padding: 10px 120px;
     font-size: 10px;
-    color: #eee;}
+    color: #{{ site.data.template.color.secondary-light }};

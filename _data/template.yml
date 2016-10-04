@@ -3,6 +3,7 @@ color:
   primary: ef4f3a
   secondary: 2e378f
   secondary-dark: 333
+  secondary-light: eee
   muted: 999
 
 # Font Families
