@@ -1010,14 +1010,16 @@ section#press small{
 /* End of Press CSS */
 
 /* Partners CSS */
-section#partners {
+
+section#partners .section-heading {
     color: #{{ site.data.template.color.secondary-light }};
 }
 
 /* Volunteer CSS */
 section#volunteer {
     /*background-image: url('{{ site.baseurl }}/img/pledgebg.png');*/
-    color: #{{ site.data.template.color.secondary-light }};
+    /*color: #{{ site.data.template.color.secondary-light }};*/
+    color: black;
 }
 
 
