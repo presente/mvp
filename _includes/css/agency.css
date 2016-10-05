@@ -990,24 +990,36 @@ section#pledge .text-danger {
 
 /* Press CSS */
 section#press {
-    background-image: url('{{ site.baseurl }}/img/pledgebg.png');
+    /*background-image: url('{{ site.baseurl }}/img/pledgebg.png');*/
     padding: 100px 0;
+    color: #{{ site.data.template.color.secondary-light }};
 }
 
 @media(max-width:765px) {
     section#press {
-        background-image: url('{{ site.baseurl }}/img/pledgebg.png');
+        /*background-image: url('{{ site.baseurl }}/img/pledgebg.png');*/
     }
 }
 section#press .section-heading{
-    /*color: #fff;*/
-    color: #{{ site.data.template.color.secondary-light }};
+    color: #{{ site.data.template.color.secondary-dark }};
 }
 
 section#press small{
     color: #dedede;
 }
 /* End of Press CSS */
+
+/* Partners CSS */
+section#partners {
+    color: #{{ site.data.template.color.secondary-light }};
+}
+
+/* Volunteer CSS */
+section#volunteer {
+    /*background-image: url('{{ site.baseurl }}/img/pledgebg.png');*/
+    color: #{{ site.data.template.color.secondary-light }};
+}
+
 
 /* Mobile alert disclosure */
 .mobilepriv p{
