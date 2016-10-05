@@ -284,6 +284,7 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #000;
+    width: 100%;
     background-attachment: scroll;
     background-image: url('mvpcommunity.jpg');
     background-position: center center;
