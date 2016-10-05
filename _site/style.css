@@ -370,8 +370,8 @@ section h3.header-section-subheading {
     margin-bottom: 75px;
     text-transform: none;
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #eee;
-    font-size: 20px;
+    color: #ef4f3a;
+    font-size: 15px;
     /*font-style: italic;*/
     font-weight: 400;
 }
@@ -691,7 +691,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('https://presente.github.io/mvp/img/pledgebg.png');
+    background-image: url('/img/pledgebg.png');
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -923,9 +923,14 @@ section#pledge {
     /*background-color: #222;*/
     padding-top: 200px;
     background-color: transparent;
-    /*background-image: url('https://presente.github.io/mvp/img/pledgebg.png');*/
+    /*background-image: url('/img/pledgebg.png');*/
     background-position: center;
     background-repeat: no-repeat;
+}
+
+section#pledge .container{
+    /*background-color: black;*/
+    background-color: rgba(0,0,0,0.6)    /* 10% opaque red */
 }
 
 section#pledge .section-heading {
@@ -991,7 +996,7 @@ section#pledge .text-danger {
     section#pledge {
         padding-top: 100px;
         background-color: transparent;
-        /*background-image: url('https://presente.github.io/mvp/img/pledgebg.png');*/
+        /*background-image: url('/img/pledgebg.png');*/
         background-position: center;
         background-repeat: no-repeat;
     }
@@ -999,12 +1004,12 @@ section#pledge .text-danger {
 
 /* Press CSS */
 section#press {
-    background-image: url('https://presente.github.io/mvp/img/pledgebg.png');
+    background-image: url('/img/pledgebg.png');
 }
 
 @media(max-width:765px) {
     section#press {
-        background-image: url('https://presente.github.io/mvp/img/pledgebg.png');
+        background-image: url('/img/pledgebg.png');
     }
 }
 section#press .section-heading{

@@ -362,8 +362,8 @@ section h3.header-section-subheading {
     margin-bottom: 75px;
     text-transform: none;
     font-family: {{ site.data.template.font.primary }};
-    color: #eee;
-    font-size: 20px;
+    color: #{{site.data.template.color.primary }};
+    font-size: 15px;
     /*font-style: italic;*/
     font-weight: 400;
 }
@@ -918,6 +918,11 @@ section#pledge {
     /*background-image: url('{{ site.baseurl }}/img/pledgebg.png');*/
     background-position: center;
     background-repeat: no-repeat;
+}
+
+section#pledge .container{
+    /*background-color: black;*/
+    background-color: rgba(0,0,0,0.6)    /* 10% opaque red */
 }
 
 section#pledge .section-heading {
