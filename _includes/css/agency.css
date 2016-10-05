@@ -260,13 +260,6 @@ fieldset[disabled] .btn-xl.active {
         transition: padding .3s;
     }
 
-    /*.navbar-default .navbar-brand {
-        font-size: 2em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
-    }*/
-
     .navbar-default .navbar-nav>.active>a {
         border-radius: 3px;
     }
@@ -345,7 +338,8 @@ section {
 
 section h2.section-heading {
     margin-top: 0;
-    margin-bottom: 15px;
+    /*margin-bottom: 15px;*/
+    padding-bottom: 30px;
     font-size: 40px;
 }
 
@@ -370,7 +364,8 @@ section h3.header-section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        /*padding: 150px 0;*/
+        padding: 80px 0;
     }
 }
 
@@ -912,10 +907,8 @@ body {
 
 /* Pledge CSS */
 section#pledge {
-    /*background-color: #222;*/
     padding-top: 200px;
     background-color: transparent;
-    /*background-image: url('{{ site.baseurl }}/img/pledgebg.png');*/
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -997,6 +990,7 @@ section#pledge .text-danger {
 /* Press CSS */
 section#press {
     background-image: url('{{ site.baseurl }}/img/pledgebg.png');
+    padding: 100px 0;
 }
 
 @media(max-width:765px) {
