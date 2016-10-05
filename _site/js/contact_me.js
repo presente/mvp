@@ -31,6 +31,7 @@ $(function() {
 
                     //clear all fields
                     $('#contactForm').trigger("reset");
+
                 },
                 error: function() {
                     // Fail message
@@ -60,3 +61,13 @@ $(function() {
 $('#name').focus(function() {
     $('#success').html('');
 });
+
+// url split
+// $(function getQuery(name){
+//    if(name=(new RegExp('[?&]'+encodeURIComponent(name)+'=([^&]*)')).exec(location.search))
+//         return decodeURIComponent(name[1]);
+//         var id = getQuery("source");
+//         console.log(id);
+//         $('#contactForm').html("<input type='hidden' name='source' value="+"'"+id+"'/"+">");
+//         console.log("Success!")
+// });
