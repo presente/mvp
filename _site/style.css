@@ -1033,21 +1033,20 @@ section#volunteer {
 /* Register to vote widget section CSS */
 section#register{
     color: #eee;
+    padding: 100px 0;
     height: auto;
+}
+
+@media(max-width:765px) {
+    section#register {
+        width: 100%;
+        padding: 50px 0;
+    }
 }
 
 section#register iframe{
-    height: 100%;
     width: 100%;
-    /*background-color: #f7f7f7;*/
-}
-
-.reg-widget{
-    /*margin: 0 auto;*/
-    height: auto;
-    /*width: 100%;*/
-    /*height: 100%;*/
-
+    padding: 10px 0;
 }
 /* End of Register section */
 
