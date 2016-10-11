@@ -1016,12 +1016,6 @@ section#partners .section-heading {
     color: #{{ site.data.template.color.secondary-light }};
 }
 
-/* Volunteer CSS */
-section#volunteer {
-    /*color: #{{ site.data.template.color.secondary-light }};*/
-    color: #{{ site.data.template.color.secondary-dark }};
-}
-
 /* Register to vote widget section CSS */
 section#register{
     color: #{{ site.data.template.color.secondary-light }};
@@ -1041,6 +1035,24 @@ section#register iframe{
     padding: 10px 0;
 }
 /* End of Register section */
+
+/* Volunteer CSS */
+section#volunteer {
+    color: #{{ site.data.template.color.secondary-dark }};
+}
+section#volunteer iframe{
+    width:100%;
+    height: 600px;
+    padding: 10px 20px;
+}
+@media(max-width:765px) {
+    section#volunteer iframe{
+        width:100%;
+        height: 500px;
+        padding: 0;
+    }
+}
+
 
 /* Mobile alert disclosure */
 .mobilepriv p{
