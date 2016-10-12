@@ -52,6 +52,10 @@ partner:
   website: "http://presente.org/"
   text: "Presente advances Latinx power and creates winning campaigns that amplify Latinx voices; expands the political imagination and traditional boundaries; and fosters inspiration for freedom, equity, and justice. Presente is the largest national Latinx online organization advancing social justice with technology, media, and culture. Lasting change only comes when ordinary people stand up and speak out. Presente.org seeks to be a platform for the Latinx community, and those who stand with us, to amplify our voices and fight for our collective welfare and dignity. Presente brings together Latinxs of all nationalities, generations, and regions, with allies from other communities. Comprised of residents, recent immigrants, and U.S. citizens, common goals include building our communities, providing for our families, and enriching the country where we live—all without being denied the basic human rights afforded to others."
 
+- name: partners
+  pic: 8
+
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
