@@ -1051,6 +1051,18 @@ section#volunteer iframe{
         padding: 0;
     }
 }
+section#about img{
+    float: left;
+    padding: 0 15px 0 0;
+    width: 50%;
+}
+@media(max-width: 765px){
+    section#about img{
+        float: left;
+        padding: 2px;
+        width: 100%;
+    }
+}
 
 
 /* Mobile alert disclosure */

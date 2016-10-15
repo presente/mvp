@@ -691,7 +691,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('https://presente.github.io/mvp/img/pledgebg.png');
+    background-image: url('/img/pledgebg.png');
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -1057,6 +1057,18 @@ section#volunteer iframe{
         width:100%;
         height: 500px;
         padding: 0;
+    }
+}
+section#about img{
+    float: left;
+    padding: 0 15px 0 0;
+    width: 50%;
+}
+@media(max-width: 765px){
+    section#about img{
+        float: left;
+        padding: 2px;
+        width: 100%;
     }
 }
 
