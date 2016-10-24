@@ -1017,7 +1017,7 @@ section#partners .section-heading {
 
 /* Register to vote widget section CSS */
 section#register{
-    color: #{{ site.data.template.color.secondary-light }};
+    color: #{{ site.data.template.color.secondary-dark }};
     padding: 100px 0;
     height: auto;
 }
