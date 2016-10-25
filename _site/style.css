@@ -691,7 +691,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('https://presente.github.io/mvp/img/pledgebg.png');
+    background-image: url('/img/pledgebg.png');
     background-position: center;
     background-repeat: no-repeat;
 }
