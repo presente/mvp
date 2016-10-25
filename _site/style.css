@@ -691,7 +691,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('/img/pledgebg.png');
+    background-image: url('https://presente.github.io/mvp/img/pledgebg.png');
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -1025,7 +1025,7 @@ section#partners .section-heading {
 
 /* Register to vote widget section CSS */
 section#register{
-    color: #333;
+    color: #eee;
     padding: 100px 0;
     height: auto;
 }
