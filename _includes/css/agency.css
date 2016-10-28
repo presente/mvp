@@ -1038,19 +1038,47 @@ section#register iframe{
 /* Volunteer CSS */
 section#volunteer {
     color: #{{ site.data.template.color.secondary-dark }};
+    width: 100%;
+    padding:0;
 }
-section#volunteer iframe{
+/*section#volunteer iframe{
     width:100%;
     height: 650px;
     padding: 10px 20px;
-}
+}*/
 @media(max-width:765px) {
     section#volunteer iframe{
         width:100%;
-        height: 500px;
+        height: 600px;
+        /*height: auto;*/
         padding: 0;
     }
 }
+
+.mapresponsive iframe{
+    width:100%;
+    height: 500px;
+    padding: 10px 20px;
+}
+.calresponsive iframe{
+    width:100%;
+    height: 500px;
+    padding: 10px 20px;
+}
+
+@media(max-width:765px) {
+    .mapresponsive iframe{
+        width:100%;
+        height: 300px;
+        padding: 0;
+    }
+    .calresponsive iframe{
+        width:100%;
+        height:500px;
+    }
+}
+
+/* About section image css */
 section#about img{
     float: left;
     padding: 0 15px 0 0;
@@ -1064,6 +1092,14 @@ section#about img{
     }
 }
 
+/* Google calendar iframe */
+/*.calresponsive {
+    position: relative; padding-bottom: 75%; height: 0; overflow: hidden;
+}*/
+/*
+.responsiveCal iframe {
+    position: absolute; top:0; left: 0; width: 100%; height: 100%;
+}*/
 
 /* Mobile alert disclosure */
 .mobilepriv p{
